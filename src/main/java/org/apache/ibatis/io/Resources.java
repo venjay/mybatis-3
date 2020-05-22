@@ -147,7 +147,7 @@ public class Resources {
     return props;
   }
 
-  /*
+  /**
    * Returns a resource on the classpath as a Reader object
    *
    * @param resource The resource to find

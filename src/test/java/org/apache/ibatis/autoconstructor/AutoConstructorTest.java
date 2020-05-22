@@ -36,6 +36,7 @@ public class AutoConstructorTest {
   @BeforeClass
   public static void setUp() throws Exception {
     // create a SqlSessionFactory
+    // 创建 SqlSessionFactory 对象。基于 mybatis-config.xml 配置文件
     final Reader reader = Resources.getResourceAsReader("org/apache/ibatis/autoconstructor/mybatis-config.xml");
     sqlSessionFactory = new SqlSessionFactoryBuilder().build(reader);
     reader.close();

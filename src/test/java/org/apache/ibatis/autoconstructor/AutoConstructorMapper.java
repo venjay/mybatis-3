@@ -19,7 +19,7 @@ import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
 
-public interface AutoConstructorMapper {
+public interface  AutoConstructorMapper {
   @Select("SELECT * FROM subject WHERE id = #{id}")
   PrimitiveSubject getSubject(final int id);
 
